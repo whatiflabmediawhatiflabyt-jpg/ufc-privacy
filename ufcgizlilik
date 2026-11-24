@@ -22,6 +22,8 @@
         }
         h1 { color: #111; border-bottom: 2px solid #eee; padding-bottom: 10px; }
         h2 { color: #1a73e8; margin-top: 25px; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
     </style>
 </head>
 <body>
@@ -30,23 +32,28 @@
         <p><strong>Effective Date:</strong> November 24, 2026</p>
         <p><strong>Developer:</strong> Senaz Games (Aziz Şengezer)</p>
 
-        <h2>1. Information Collection and Use</h2>
-        <p><strong>Ultimate Football Career</strong> does not require user registration and does not collect, store, transmit, or share any personal or sensitive user data on external servers. All game progress, career statistics, and settings are stored locally on your device.</p>
+        <h2>1. Overview</h2>
+        <p><strong>Ultimate Football Career</strong> does not require user account registration. Your game progress, career statistics, and settings are stored locally on your device. However, the application integrates third-party services for displaying advertisements and processing in-app purchases, which may collect and process certain technical data.</p>
 
-        <h2>2. Third-Party Services</h2>
-        <p>This application does not integrate third-party advertising networks, analytics tools, or tracking SDKs that collect personal information from users.</p>
+        <h2>2. Third-Party Services & Data Collection</h2>
+        <p>We use the following trusted third-party services in our game:</p>
+        <ul>
+            <li><strong>Google AdMob (Advertising):</strong> Used to serve in-game advertisements. AdMob may automatically collect and share data such as your device's Advertising ID, IP address, coarse location (derived from IP), app interactions, and crash/diagnostic logs for advertising, analytics, and fraud prevention purposes.</li>
+            <li><strong>Google Play Billing (In-App Purchases):</strong> Used to securely process optional in-app purchases. All payment transactions are handled directly by Google Play. We do not access, collect, or store your credit card or banking information; we only receive confirmation of your purchase status to unlock in-game items.</li>
+        </ul>
+        <p>For more details on how Google handles data, please review <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's Privacy Policy</a>.</p>
 
         <h2>3. Data Security and Deletion</h2>
-        <p>Because no personal data is collected or stored on external servers, your data remains completely under your control on your device. You can delete all locally saved game data at any time by clearing the app's data in your device settings or by uninstalling the game.</p>
+        <p>All data transmitted by third-party SDKs (such as Google AdMob and Google Play Billing) is encrypted in transit using industry-standard TLS encryption. Local game data stored on your device can be deleted at any time by clearing the app's storage in your device settings or uninstalling the game. You can also reset or delete your Advertising ID in your Android device's Google settings.</p>
 
         <h2>4. Children's Privacy</h2>
-        <p>We do not knowingly collect any personal information from anyone, including children under the age of 13.</p>
+        <p>We do not knowingly collect personally identifiable information from children under the age of 13. Ad requests are configured in compliance with Google Play's Families and advertising policies.</p>
 
         <h2>5. Changes to This Privacy Policy</h2>
-        <p>We may update this Privacy Policy from time to time. Any updates will be posted on this page with a revised effective date.</p>
+        <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date.</p>
 
         <h2>6. Contact Us</h2>
-        <p>If you have any questions about this Privacy Policy, you can contact us at: <strong>ultimatefootballcareer@gmail.com</strong></p>
+        <p>If you have any questions about this Privacy Policy, please contact us at: <strong>seninmailadresin@gmail.com</strong></p>
     </div>
 </body>
 </html>
